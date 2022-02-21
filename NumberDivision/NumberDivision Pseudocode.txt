@@ -1,0 +1,22 @@
+Problem: Verilmiş n - ədədinin 3-ə və 7-ə bölünüb-bölünməməsini tapın.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+giris n ededi
+
+if(n==0)
+ekrana yazdir "Zekmet olmasa 0 dan ferqli eded qeyd edin";
+
+else if(n%3==0 && n%7==0)
+ekrana yazdir "n - ədədi 3-ə və 7-ə bölünür!!!";
+
+else
+ekrana yazdir "n - ədədi 3-ə və 7-ə bölünmür!!!";
+
+finsh...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+note: conditions  bildiyim ucun bele yazdim...))
+orda else if yazmisam yegin ki basa dusersiz
+mentiqi olara n 0 a beraber deyilse o biri serte kecsin
